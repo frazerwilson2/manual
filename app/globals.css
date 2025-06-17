@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --darkAvo: #0B3B3C;
+  --avocado: #a9b8a1;
+  --grandfather: #6D8A83;
+  --grandfather-light: #E8EFE9;
+  --rouge: #7E0707;
+  --rouge-light: #ae0a0a;
+}
+
+@theme {
+  --color-main: var(--darkAvo);
+  --color-secondary: var(--avocado);
+  --color-link: var(--rouge);
+  --color-grandfather: var(--grandfather);
+  --color-grandfather-light: var(--grandfather-light);
+  --color-link-hover: var(--rouge-light);
+
+  --text-sm: 0.625rem;
+  --text-md: 1.125rem;
+  --text-lg: 3.75rem;
+  --text-lg-line-height: 70px;
+  --text-xl: 5.625rem;
+  --text-xl--line-height: 90px;
+  --text-h2: 2.5rem;
+  --text-h3: 1.75rem;
+
+  --animate-fade-in: fadeIn 1s ease-in-out;
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (min-width: 640px) {
+  .hero-banner {
+    background-image: url('/hero-nobg.png');
+    background-repeat: no-repeat;
+    background-position: 60vw bottom;
+    background-size: contain;
+  }
+}

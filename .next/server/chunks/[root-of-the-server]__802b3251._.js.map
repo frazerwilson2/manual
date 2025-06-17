@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 57, "column": 0}, "map": {"version":3,"sources":["file:///Users/frazerwilson/code/manual-test/app/api/route.ts"],"sourcesContent":["import data from './data.json'\n\nexport async function GET() {\n    try {\n        await new Promise((resolve) => setTimeout(resolve, 1000));\n        return new Response(JSON.stringify(data));\n    } catch (error) {\n        console.error('Error fetching data:', error);\n        return new Response(JSON.stringify({ error: 'Failed to fetch data' }), {\n            status: 500\n        });\n    }\n}"],"names":[],"mappings":";;;AAAA;;AAEO,eAAe;IAClB,IAAI;QACA,MAAM,IAAI,QAAQ,CAAC,UAAY,WAAW,SAAS;QACnD,OAAO,IAAI,SAAS,KAAK,SAAS,CAAC,0FAAA,CAAA,UAAI;IAC3C,EAAE,OAAO,OAAO;QACZ,QAAQ,KAAK,CAAC,wBAAwB;QACtC,OAAO,IAAI,SAAS,KAAK,SAAS,CAAC;YAAE,OAAO;QAAuB,IAAI;YACnE,QAAQ;QACZ;IACJ;AACJ","debugId":null}}]
+}

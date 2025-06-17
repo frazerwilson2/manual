@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/normsfont_70d7b06a.module.css"],"sourcesContent":["@font-face {\n    font-family: 'NormsFont';\n    src: url('@vercel/turbopack-next/internal/font/local/font?{%22path%22:%22../public/Norms-Regular.otf%22,%22preload%22:true,%22has_size_adjust%22:true}') format('opentype');\n    font-display: swap;\n    \n}\n\n@font-face {\n    font-family: 'NormsFont Fallback';\n    src: local(\"Arial\");\n    ascent-override: 94.89%;\ndescent-override: 21.77%;\nline-gap-override: 0.00%;\nsize-adjust: 101.16%;\n\n}\n\n.className {\n    font-family: 'NormsFont', 'NormsFont Fallback';\n    \n}\n\n"],"names":[],"mappings":"AAAA;;;;;;AAOA;;;;;;;;;AAUA"}}]
+}

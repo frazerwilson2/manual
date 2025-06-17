@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/frazerwilson/code/manual-test/app/loading.tsx"],"sourcesContent":["export default function Loading() {\n  return (\n    <div style={{\n        display: 'flex',\n        justifyContent: 'center',\n        alignItems: 'center',\n        height: '100vh',\n        width: '100vw',\n        backgroundColor: 'white',\n        color: 'black',\n        fontSize: '2em'\n    }}>\n        Loading Quiz...\n    </div>\n  );\n}"],"names":[],"mappings":";;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAI,OAAO;YACR,SAAS;YACT,gBAAgB;YAChB,YAAY;YACZ,QAAQ;YACR,OAAO;YACP,iBAAiB;YACjB,OAAO;YACP,UAAU;QACd;kBAAG;;;;;;AAIP","debugId":null}}]
+}

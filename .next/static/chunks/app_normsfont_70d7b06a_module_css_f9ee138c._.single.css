@@ -1,0 +1,21 @@
+/* [project]/app/normsfont_70d7b06a.module.css [app-client] (css) */
+@font-face {
+  font-family: NormsFont;
+  src: url("../media/Norms_Regular-s.p.971a03de.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: NormsFont Fallback;
+  src: local(Arial);
+  ascent-override: 94.89%;
+  descent-override: 21.77%;
+  line-gap-override: 0.0%;
+  size-adjust: 101.16%;
+}
+
+.normsfont_70d7b06a-module__23qBwW__className {
+  font-family: NormsFont, NormsFont Fallback;
+}
+
+/*# sourceMappingURL=app_normsfont_70d7b06a_module_css_f9ee138c._.single.css.map*/
